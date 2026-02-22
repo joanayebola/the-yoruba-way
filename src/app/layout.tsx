@@ -16,13 +16,8 @@ export const metadata: Metadata = {
   title: "The Yorùbá Way | Yoruba Cosmology Blog",
   description: "Reclaiming Yorùbá Philosophy. Stripping away the colonial lens to meet the Òrìṣà as they truly are.",
   icons: {
-    icon: [
-      { url: "/icon.png" },
-      { url: "/favicon.ico" },
-    ],
-    apple: [
-      { url: "/icon.png" },
-    ],
+    icon: "/icon.png",
+    apple: "/icon.png",
   },
 };
 
