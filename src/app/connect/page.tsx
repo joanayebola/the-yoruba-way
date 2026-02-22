@@ -125,7 +125,7 @@ export default function ConnectPage() {
 
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                                 <div className="space-y-2">
-                                    <label className="text-[10px] font-bold uppercase tracking-[0.2em] text-foreground/40 pl-4">Your Name / Lineage</label>
+                                    <label className="text-[10px] font-bold uppercase tracking-[0.2em] text-foreground/40 pl-4">Your Name</label>
                                     <input
                                         name="name"
                                         type="text"

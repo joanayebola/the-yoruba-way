@@ -1,6 +1,6 @@
 import Tooltip from "@/components/Tooltip";
 import TruthCheck from "@/components/TruthCheck";
-import AudioSnippet from "@/components/AudioSnippet";
+// import AudioSnippet from "@/components/AudioSnippet";
 
 export const POST_CONTENT: Record<string, React.ReactNode> = {
     "esu-not-the-devil": (
@@ -119,11 +119,11 @@ export const POST_CONTENT: Record<string, React.ReactNode> = {
                     When was the last time you stood at a "crossroads" in your life? Did you blame "bad luck," or did you look at the choices that led you there?
                     Viewing challenges as "Èṣù’s Test" shifts us from being victims of fate to being masters of our own character.
                 </p>
-                <div className="flex flex-wrap gap-4">
+                {/* <div className="flex flex-wrap gap-4">
                     <AudioSnippet word="Èṣù" />
                     <AudioSnippet word="Lápéerẹ" />
                     <AudioSnippet word="Ìwàpẹ̀lẹ́" />
-                </div>
+                </div> */}
             </section>
         </>
     ),
@@ -213,11 +213,11 @@ export const POST_CONTENT: Record<string, React.ReactNode> = {
                 <p className="italic text-foreground/70 mb-8">
                     “The world is a marketplace; the spirit realm is home.” For too long, we have been taught to fear the very forces that sustain our existence. Does learning the story of <Tooltip term="Òṣé Tura" /> change how you view "authority" and "leadership"? How can we begin to re-center the "seventeenth Òrìṣà" in our modern communities to find the balance we are currently lacking?
                 </p>
-                <div className="flex flex-wrap gap-4">
+                {/* <div className="flex flex-wrap gap-4">
                     <AudioSnippet word="Àjẹ́" />
                     <AudioSnippet word="Ìṣẹ̀ṣe" />
                     <AudioSnippet word="Ọ̀ṣun" />
-                </div>
+                </div> */}
             </section>
         </>
     ),
@@ -299,11 +299,11 @@ export const POST_CONTENT: Record<string, React.ReactNode> = {
                 <p className="italic text-foreground/70 mb-8">
                     “If I have money, it is my Orí I will thank. If I have children, it is my Orí I will thank.” In a world that constantly asks us to look outside for validation, how does it feel to know that you are the highest authority in your own spiritual life? Do you trust your <Tooltip term="Orí-Inú" /> (intuition), or has the "noise" of the world made you deaf to your own inner guidance?
                 </p>
-                <div className="flex flex-wrap gap-4">
+                {/* <div className="flex flex-wrap gap-4">
                     <AudioSnippet word="Orí" />
                     <AudioSnippet word="Àyànmọ́" />
                     <AudioSnippet word="Ìwà" />
-                </div>
+                </div> */}
             </section>
         </>
     ),

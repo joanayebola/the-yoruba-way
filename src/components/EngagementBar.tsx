@@ -49,7 +49,7 @@ export default function EngagementBar({ slug }: EngagementBarProps) {
     };
 
     const shareX = () => {
-        const url = `https://twitter.com/intent/tweet?url=${encodeURIComponent(window.location.href)}&text=${encodeURIComponent("Carry this Wisdom: ")}`;
+        const url = `https://twitter.com/intent/tweet?url=${encodeURIComponent(window.location.href)}`;
         window.open(url, "_blank");
     };
 

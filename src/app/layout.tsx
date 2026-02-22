@@ -13,8 +13,21 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "The Yorùbá Way | Yoruba Cosmology Blog",
+  metadataBase: new URL('https://theyorubaway.com'),
+  title: {
+    default: "The Yorùbá Way | Yoruba Cosmology Blog",
+    template: "%s | The Yorùbá Way"
+  },
   description: "Reclaiming Yorùbá Philosophy. Stripping away the colonial lens to meet the Òrìṣà as they truly are.",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://theyorubaway.com",
+    siteName: "The Yorùbá Way",
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
   icons: {
     icon: "/icon.png",
     apple: "/icon.png",

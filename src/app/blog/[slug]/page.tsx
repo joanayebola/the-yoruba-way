@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import { MOCK_POSTS } from "@/data/mock-data";
 import { POST_CONTENT } from "@/data/post-content";
 import Navbar from "@/components/Navbar";
@@ -5,11 +6,40 @@ import TruthCheck from "@/components/TruthCheck";
 import Tooltip from "@/components/Tooltip";
 import ScrollProgress from "@/components/ScrollProgress";
 import EngagementBar from "@/components/EngagementBar";
-import AudioSnippet from "@/components/AudioSnippet";
+// import AudioSnippet from "@/components/AudioSnippet";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft, Calendar, Clock, ShieldCheck } from "lucide-react";
 import { notFound } from "next/navigation";
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+    const { slug } = await params;
+    const post = MOCK_POSTS.find((p) => p.slug === slug);
+
+    if (!post) {
+        return {
+            title: "Post Not Found | The Yorùbá Way",
+        };
+    }
+
+    return {
+        title: `${post.title} | The Yorùbá Way`,
+        description: post.excerpt,
+        openGraph: {
+            title: post.title,
+            description: post.excerpt,
+            type: "article",
+            siteName: "The Yorùbá Way",
+            // The opengraph-image.tsx file in this same directory will handle the image generation
+            // Next.js automatically associates it with the route.
+        },
+        twitter: {
+            card: "summary_large_image",
+            title: post.title,
+            description: post.excerpt,
+        },
+    };
+}
 
 export default async function PostPage({ params }: { params: Promise<{ slug: string }> }) {
     const { slug } = await params;
@@ -92,14 +122,14 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
                                 While the specific content for this transmission is being prepared, alignment with your
                                 <Tooltip term="Orí" /> remains the priority.
                             </p>
-                            <div className="my-12 p-8 glass-card rounded-3xl bg-accent/5">
+                            {/* <div className="my-12 p-8 glass-card rounded-3xl bg-accent/5">
                                 <h4 className="text-lg font-serif font-bold mb-4">Listen to the Tone</h4>
                                 <div className="flex flex-wrap gap-4">
                                     <AudioSnippet word="Aṣẹ" />
                                     <AudioSnippet word="Òrìṣà" />
                                     <AudioSnippet word="Orí" />
                                 </div>
-                            </div>
+                            </div> */}
                         </>
                     )}
                 </div>
