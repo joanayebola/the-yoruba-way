@@ -1,11 +1,7 @@
 import { NextResponse } from 'next/server';
 import Mailjet from 'node-mailjet';
 
-// Use apiConnect for node-mailjet v6
-const mailjet = Mailjet.apiConnect(
-    process.env.MAILJET_API_KEY || '',
-    process.env.MAILJET_API_SECRET || ''
-);
+export const dynamic = 'force-dynamic';
 
 export async function POST(request: Request) {
     try {
@@ -15,14 +11,21 @@ export async function POST(request: Request) {
             return NextResponse.json({ error: 'Invalid email address' }, { status: 400 });
         }
 
+        const apiKey = process.env.MAILJET_API_KEY;
+        const apiSecret = process.env.MAILJET_API_SECRET;
         const listId = process.env.MAILJET_LIST_ID;
-        if (!listId) {
-            return NextResponse.json({ error: 'Mailjet List ID is not configured' }, { status: 500 });
+
+        if (!apiKey || !apiSecret || !listId) {
+            console.error('Mailjet configuration missing:', { apiKey: !!apiKey, apiSecret: !!apiSecret, listId: !!listId });
+            return NextResponse.json({ error: 'Mailjet is not properly configured on the server' }, { status: 500 });
         }
+
+        // Initialize inside the handler to avoid build-time errors when env vars are missing
+        const mailjet = Mailjet.apiConnect(apiKey, apiSecret);
 
         // The correct pattern for adding a NEW or existing contact to a list:
         // POST /contactslist/{list_id}/managecontact
-        const result = await mailjet
+        await mailjet
             .post('contactslist', { version: 'v3' })
             .id(listId)
             .action('managecontact')
