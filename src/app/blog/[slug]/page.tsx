@@ -30,13 +30,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
             description: post.excerpt,
             type: "article",
             siteName: "The Yorùbá Way",
-            // The opengraph-image.tsx file in this same directory will handle the image generation
-            // Next.js automatically associates it with the route.
+            images: post.image ? [{ url: post.image }] : [],
         },
         twitter: {
             card: "summary_large_image",
             title: post.title,
             description: post.excerpt,
+            images: post.image ? [post.image] : [],
         },
     };
 }
