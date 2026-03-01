@@ -92,7 +92,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
                         </div>
                         <div>
                             <p className="text-sm font-bold tracking-widest uppercase mb-1">{post.author}</p>
-                            <p className="text-[10px] text-foreground/40 font-bold uppercase tracking-widest">Guardian of the Lineage</p>
+                            <p className="text-[10px] text-foreground/40 font-bold uppercase tracking-widest">Author</p>
                         </div>
                     </div>
                 </header>
