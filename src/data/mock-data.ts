@@ -2,6 +2,18 @@ import { Post, GlossaryTerm } from "@/types/blog";
 
 export const MOCK_POSTS: Post[] = [
     {
+        id: "6",
+        title: "Ṣàngó’s Braids: Masculinity and the Sacred Feminine",
+        slug: "sango-braids-masculinity",
+        date: "March 13, 2026",
+        excerpt: "The most powerful warrior in the Yorùbá pantheon is depicted with braided hair. We explore the 'Cool' within the 'Heat' of the Thunder God.",
+        category: "Philosophy",
+        author: "Joan Ayebola",
+        image: "/images/blog/sango-braids.png",
+        readingTime: "8 min read",
+        verified: true,
+    },
+    {
         id: "2",
         title: "Eṣù is Not the Devil: A 500-Year-Old Translation Error",
         slug: "esu-not-the-devil",
@@ -139,5 +151,35 @@ export const GLOSSARY_TERMS: GlossaryTerm[] = [
         term: "Àjàlá Mọ̀npín",
         definition: "The celestial potter in Yorùbá cosmology who molds the physical and spiritual 'heads' chosen by souls before birth.",
         pronunciation: "Ah-jah-lah Mawn-peen",
+    },
+    {
+        term: "Ṣàngó",
+        definition: "The Yorùbá deity of thunder, lightning, and justice; the King of Kòso who embodies the balance of power and discipline.",
+        pronunciation: "Shan-goh",
+    },
+    {
+        term: "Kòso",
+        definition: "A historic city in the Oyo Empire where Ṣàngó reigned as the fourth Aláàfin (King).",
+        pronunciation: "Koh-soh",
+    },
+    {
+        term: "Oṣé",
+        definition: "The double-headed axe of Ṣàngó, representing the balance between destruction and creation, masculinity and femininity.",
+        pronunciation: "Oh-shay",
+    },
+    {
+        term: "Iná",
+        definition: "Fire or Heat. In Yorùbá philosophy, it represents expansion, passion, and justice.",
+        pronunciation: "Ee-nah",
+    },
+    {
+        term: "Omi",
+        definition: "Water or Coolness. It represents reflection, intuition, and the 'nurturing' aspect of power.",
+        pronunciation: "Oh-mee",
+    },
+    {
+        term: "Oṣù",
+        definition: "A sacred hairstyle (braids) worn by Ṣàngó and his priests, representing the 'ordering' and containment of power.",
+        pronunciation: "Oh-shoo",
     },
 ];

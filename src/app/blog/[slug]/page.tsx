@@ -75,11 +75,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
                         <span className="flex items-center gap-1.5">
                             <Clock size={12} /> {post.readingTime}
                         </span>
-                        {post.verified && (
-                            <span className="flex items-center gap-1.5 text-accent border border-accent/20 px-2 py-0.5 rounded capitalize">
-                                <ShieldCheck size={10} /> Parrot-Free
-                            </span>
-                        )}
+
                     </div>
 
                     <h1 className="text-4xl md:text-7xl font-serif font-bold mb-10 leading-tight">

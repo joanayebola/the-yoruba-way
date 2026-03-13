@@ -307,4 +307,107 @@ export const POST_CONTENT: Record<string, React.ReactNode> = {
             </section>
         </>
     ),
+    "sango-braids-masculinity": (
+        <>
+            <p>
+                When we think of <Tooltip term="Ṣàngó" />, we think of the roar of thunder and the blinding flash of lightning. We see the King of <Tooltip term="Kòso" />, the warrior who never loses, the judge who breathes fire, and the wielder of the <Tooltip term="Oṣé" /> (the double-headed axe). In the modern world, he is often used as the ultimate symbol of "macho" energy.
+            </p>
+
+            <p>
+                But if you look closely at the ancient carvings of <Tooltip term="Ṣàngó" />, something usually confuses the modern eye.
+            </p>
+
+            <p className="text-2xl font-serif font-bold italic my-10 text-accent leading-tight">
+                The most powerful warrior in the Yorùbá pantheon is almost always depicted with his hair intricately braided like a woman’s.
+            </p>
+
+            <p>
+                He wears earrings. He is draped in heavy beads. To the colonial mind, these are signs of "softness." To the Yorùbá mind, these are the secrets of his power.
+            </p>
+
+            <h3 className="text-3xl font-serif font-bold mt-16 mb-6">The Paradox of the Thunder God</h3>
+
+            <p>
+                In Yorùbá philosophy, a being that is purely "masculine" is considered a danger to themselves and the world. Pure heat (<Tooltip term="Iná" />) without any cooling element eventually burns everything to ash.
+            </p>
+
+            <p>
+                <Tooltip term="Ṣàngó" /> is the embodiment of "Heat." He is expansion, justice, and raw electricity. But a King cannot rule with fire alone. If <Tooltip term="Ṣàngó" /> were only fire, he would be a forest fire—destructive and directionless. To become a King (Ọba), he had to incorporate the "Cool" (<Tooltip term="Omi" />).
+            </p>
+
+            <TruthCheck
+                colonial="That masculinity is defined by aggression, the absence of beauty, and the rejection of the feminine."
+                indigenous="True strength is the ability to discipline your own power. By wearing the 'Cool' symbols of the Mothers (braids, earrings, beads), Ṣàngó demonstrates that a leader must be balanced. In our philosophy, 'Heat' without 'Cool' is entropy; 'Cool' without 'Heat' is stagnation. Ṣàngó is the Sacred Balance."
+            />
+
+            <h3 className="text-3xl font-serif font-bold mt-16 mb-6">The <Tooltip term="Oṣù" />: Braiding the "Inner Head"</h3>
+
+            <p>
+                The hairstyle <Tooltip term="Ṣàngó" /> wears is called <Tooltip term="Oṣù" />. It is the same style worn by brides and by priests during their initiation.
+            </p>
+
+            <p>
+                In <Tooltip term="Ìṣẹ̀ṣe" />, the hair is the "crown" of your <Tooltip term="Orí" /> (your consciousness). By braiding his hair, <Tooltip term="Ṣàngó" /> is literally "ordering" his thoughts. He is taking his wild, lightning-fast energy and binding it into a structured, beautiful form.
+            </p>
+
+            <p>
+                This is the first lesson of <Tooltip term="Ṣàngó" />’s masculinity: True strength is the ability to discipline your own power. The braids represent the feminine principle of "Containment." He is a warrior who has been "nurtured" into a leader.
+            </p>
+
+            <h3 className="text-3xl font-serif font-bold mt-16 mb-6">The Earrings: The Power of Listening</h3>
+
+            <p>
+                <Tooltip term="Ṣàngó" /> is often shown wearing earrings associated with <Tooltip term="Ọ̀ṣun" />, the leader of the Mothers. Why would a King wear the jewelry of the "Sacred Feminine"?
+            </p>
+
+            <p>
+                Because a King who cannot listen is a tyrant.
+            </p>
+
+            <p>
+                In Yorùbá culture, the "Ear" is a sacred portal. By wearing these ornaments, <Tooltip term="Ṣàngó" /> acknowledges that his authority is not absolute. It is sanctioned by the <Tooltip term="Àjẹ́" /> (The Mothers). He wears their symbols to show that he hears the needs of the Earth and the community. He isn't just a "Strongman"; he is a Balanced Man.
+            </p>
+
+            <h3 className="text-3xl font-serif font-bold mt-16 mb-6">The Science of Heat and Cool</h3>
+
+            <p>
+                The <Tooltip term="Oṣé" /> (double-headed axe) is the perfect visual for this logic. It has two blades facing in opposite directions.
+            </p>
+
+            <ul className="list-none space-y-4 my-8">
+                <li>
+                    <strong>One blade represents the Masculine (Hot):</strong> The strike, the war, the action.
+                </li>
+                <li>
+                    <strong>One blade represents the Feminine (Cool):</strong> The mercy, the reflection, the intuition.
+                </li>
+            </ul>
+
+            <p>
+                <Tooltip term="Ṣàngó" /> carries the axe because he sits exactly in the middle. He is the "Crossroads" where fire meets water. When he strikes with lightning, it is followed by rain. This is the Science of Balance. Without the "feminine" cooling of his braids, the rain would never come, and the crops would never grow.
+            </p>
+
+            <h3 className="text-3xl font-serif font-bold mt-16 mb-6">Reclaiming Masculinity</h3>
+
+            <p>
+                Colonialism taught us a very narrow version of what it means to be a man: "Don't show emotion, don't be beautiful, and don't listen to the feminine."
+            </p>
+
+            <p>
+                Our ancestors knew better. They knew that a man who fears the "feminine" within himself is a man who is out of balance. <Tooltip term="Ṣàngó" />’s braids are a reminder that you can be the loudest thunder in the sky and still have the grace to wear the symbols of the Mothers.
+            </p>
+
+            <p>
+                To be like <Tooltip term="Ṣàngó" /> is to be strong enough to be beautiful. It is to be powerful enough to be balanced.
+            </p>
+
+            <div className="my-16 p-10 glass-card rounded-[2rem] bg-accent/5 relative overflow-hidden">
+                <div className="absolute top-0 right-0 w-32 h-32 bg-accent/5 rounded-full blur-2xl" />
+                <h3 className="text-2xl font-serif font-bold mb-6 italic">Reflect & Connect</h3>
+                <p>
+                    Does this change how you view "strength"? In your own life, where do you need to apply "braids" to your own "fire" to make it more productive?
+                </p>
+            </div>
+        </>
+    ),
 };
