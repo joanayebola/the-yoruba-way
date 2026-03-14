@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Post } from "@/types/blog";
-import { Calendar, Clock, ShieldCheck } from "lucide-react";
+import { Calendar, Clock, ArrowRight } from "lucide-react";
 
 interface PostCardProps {
     post: Post;
@@ -10,11 +10,11 @@ interface PostCardProps {
 export default function PostCard({ post }: PostCardProps) {
     return (
         <article className="glass-card rounded-3xl overflow-hidden flex flex-col h-full group transition-all hover:-translate-y-2 hover:shadow-xl hover:shadow-accent/5">
-            <div className="relative h-64 w-full overflow-hidden">
+            <Link href={`/blog/${post.slug}`} className="relative h-64 w-full overflow-hidden block" aria-label={`Read more about ${post.title}`}>
                 {post.image ? (
                     <Image
                         src={post.image}
-                        alt={post.title}
+                        alt={`Featured image for ${post.title}`}
                         fill
                         className="object-cover transition-transform duration-500 group-hover:scale-110"
                     />
@@ -27,13 +27,9 @@ export default function PostCard({ post }: PostCardProps) {
                     <span className="px-3 py-1 rounded-full bg-accent text-background text-[10px] font-bold uppercase tracking-widest self-start">
                         {post.category}
                     </span>
-                    {post.verified && (
-                        <div className="flex items-center gap-1 px-2 py-1 rounded-md bg-background/90 backdrop-blur-sm text-accent text-[8px] font-bold uppercase tracking-[0.15em] border border-accent/20">
-                            <ShieldCheck size={10} strokeWidth={3} /> Parrot-Free
-                        </div>
-                    )}
                 </div>
-            </div>
+                <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+            </Link>
 
             <div className="p-8 flex flex-col flex-grow">
                 <div className="flex items-center gap-4 text-[10px] text-foreground/40 font-bold uppercase tracking-widest mb-4">
@@ -46,7 +42,7 @@ export default function PostCard({ post }: PostCardProps) {
                 </div>
 
                 <h3 className="text-2xl font-serif font-bold mb-4 line-clamp-2 leading-tight group-hover:text-accent transition-colors">
-                    <Link href={`/blog/${post.slug}`}>
+                    <Link href={`/blog/${post.slug}`} aria-label={post.title}>
                         {post.title}
                     </Link>
                 </h3>
@@ -59,9 +55,11 @@ export default function PostCard({ post }: PostCardProps) {
                     <Link
                         href={`/blog/${post.slug}`}
                         className="text-[10px] font-bold text-accent uppercase tracking-[0.2em] flex items-center gap-2 group/link"
+                        aria-label={`Read transmission: ${post.title}`}
                     >
                         Seek Further
                         <div className="w-6 h-[1px] bg-accent transition-all group-hover/link:w-10" />
+                        <ArrowRight size={14} className="group-hover/link:translate-x-1 transition-transform" />
                     </Link>
                     <span className="text-[10px] uppercase font-bold tracking-widest text-foreground/20">
                         Odù-Grounded

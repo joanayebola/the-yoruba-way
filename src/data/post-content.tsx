@@ -3,6 +3,89 @@ import TruthCheck from "@/components/TruthCheck";
 // import AudioSnippet from "@/components/AudioSnippet";
 
 export const POST_CONTENT: Record<string, React.ReactNode> = {
+    "science-of-ebo": (
+        <>
+            <p>
+                For over a century, the word "sacrifice" has been used as a weapon against Yorùbá culture.
+                Colonial historians framed <Tooltip term="Ẹbọ" /> as something savage, a primitive attempt to appease "hungry" or "angry" gods with blood. They painted a picture of a "bloodthirsty" tradition to justify replacing it with their own.
+            </p>
+
+            <p>
+                But in Yorùbá philosophy, <Tooltip term="Ẹbọ" /> has nothing to do with bloodlust. It is a sophisticated system of spiritual thermodynamics. It is the science of moving energy from a state of "Hot" (chaos/volatility) to a state of "Cool" (balance/peace).
+            </p>
+
+            <h3 className="text-3xl font-serif font-bold mt-16 mb-6">The Law of Reciprocity</h3>
+            <p>
+                At its core, <Tooltip term="Ẹbọ" /> is based on a simple, undeniable truth: You cannot take from the Earth without giving something back. We live in a closed system of energy. Every time we breathe, eat, or build a house, we are consuming resources from the universe’s storehouse. In <Tooltip term="Ìṣẹ̀ṣe" />, we recognize that this creates a "debt" in the equilibrium of nature. <Tooltip term="Ẹbọ" /> is the act of paying that debt. It is the ritual of reciprocity that ensures the world remains in balance.
+            </p>
+
+            <h3 className="text-3xl font-serif font-bold mt-16 mb-6">Hot Fire vs. Cool Water</h3>
+            <p>
+                In Ifá, we categorize the world into two primary energies: <Tooltip term="Iná" /> (Fire/Heat) and <Tooltip term="Omi" /> (Water/Cool).
+            </p>
+
+            <ul className="list-none space-y-4 my-8">
+                <li>
+                    <strong>Hot Fire (Iná):</strong> This represents a state of volatility. When your life is "hot," you experience constant conflict, sudden obstacles, physical illness, or high-stress anxiety. It is the spiritual equivalent of an engine redlining. If it stays hot for too long, it will explode.
+                </li>
+                <li>
+                    <strong>Cool Water (Etù):</strong> This is the state of <Tooltip term="Ìwàpẹ̀lẹ́" /> (gentle character). It is clarity, health, and a clear path.
+                </li>
+            </ul>
+
+            <p>
+                <Tooltip term="Ẹbọ" /> is the radiator. It is the alchemical tool used to "cool" a situation that has become dangerously hot. When a Babaláwo or Ìyánífá prescribes a sacrifice, they aren't "buying" a favor from an Orìṣà. They are performing a transaction to shift the frequency of your environment from chaos back to equilibrium.
+            </p>
+
+            <h3 className="text-3xl font-serif font-bold mt-16 mb-6">The Physics of the Offering</h3>
+            <p>
+                Why do we use specific items like palm oil, honey, or animals? It isn't random. Each item carries a specific "vibration" or "<Tooltip term="Aṣẹ" />."
+            </p>
+
+            <ul className="list-none space-y-4 my-8">
+                <li>
+                    <strong>Palm Oil (Epo):</strong> Used to smooth and "heat" an action into manifestation.
+                </li>
+                <li>
+                    <strong>Honey (Oyin):</strong> Used to "sweeten" a bitter situation.
+                </li>
+                <li>
+                    <strong>Cool Water (Omi):</strong> Used to stabilize and calm.
+                </li>
+            </ul>
+
+            <p>
+                When life force is offered, it is the release of <Tooltip term="Aṣẹ" /> (raw energy) to fuel a change. The <Tooltip term="Òrìṣà" />, who are the personified forces of nature like the Ocean, the Wind, and the Iron do not "eat" the food in the way humans do. They absorb the energy of the sacrifice to facilitate the shift in your life. It is a spiritual contract, signed in the physical world.
+            </p>
+
+            <h3 className="text-3xl font-serif font-bold mt-16 mb-6">The Ultimate Sacrifice: Character</h3>
+            <p>
+                There is a common saying in the 256 <Tooltip term="Odù Ifá" />: <span className="italic">"Ẹbọ fífún kò tó ìwà pẹ̀lẹ́"</span> which means Sacrifice is good, but character is better.
+            </p>
+
+            <p>
+                If you offer a thousand goats but your heart is full of malice, your <Tooltip term="Ẹbọ" /> will fail. Why? Because your internal "heat" (your bad character) will immediately boil away the "coolness" of the ritual. The ultimate <Tooltip term="Ẹbọ" /> is the sacrifice of the ego. It is the willingness to change your behavior to match the balance you are asking the universe to provide.
+            </p>
+
+            <div className="my-16 p-10 glass-card rounded-[2rem] bg-accent/5 relative overflow-hidden">
+                <div className="absolute top-0 right-0 w-32 h-32 bg-accent/5 rounded-full blur-2xl" />
+                <h3 className="text-2xl font-serif font-bold mb-6 italic">Conclusion: Maintaining the Equilibrium</h3>
+                <p>
+                    <Tooltip term="Ẹbọ" /> is an act of humility. It is a reminder that we are not the masters of this planet, but participants in a massive, interconnected web of life. We give so that we may continue to receive. We cool the fire so that we can walk the path in peace.
+                </p>
+                <p>
+                    The next time you hear the word "sacrifice," look past the colonial labels. See it for what it truly is: the science of keeping the world’s heart beating.
+                </p>
+            </div>
+
+            <section className="mt-20 border-t border-accent/10 pt-10">
+                <h4 className="text-lg font-serif font-bold mb-6">Reflect & Connect</h4>
+                <p className="italic text-foreground/70 mb-8">
+                    Think about a "hot" situation in your life right now, a conflict or a stressor. What would it look like to "cool" that energy through an act of reciprocity or a change in character?
+                </p>
+            </section>
+        </>
+    ),
     "esu-not-the-devil": (
         <>
             <p>

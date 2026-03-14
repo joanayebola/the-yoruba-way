@@ -2,6 +2,18 @@ import { Post, GlossaryTerm } from "@/types/blog";
 
 export const MOCK_POSTS: Post[] = [
     {
+        id: "7",
+        title: "Cool Water vs. Hot Fire: The Science of Ẹbọ",
+        slug: "science-of-ebo",
+        date: "March 14, 2026",
+        excerpt: "For over a century, 'sacrifice' has been used as a weapon against Yorùbá culture. We explore Ẹbọ as a sophisticated system of spiritual thermodynamics.",
+        category: "Philosophy",
+        author: "Joan Ayebola",
+        image: "/images/blog/science-of-ebo.png",
+        readingTime: "10 min read",
+        verified: true,
+    },
+    {
         id: "6",
         title: "Ṣàngó’s Braids: Masculinity and the Sacred Feminine",
         slug: "sango-braids-masculinity",
@@ -181,5 +193,10 @@ export const GLOSSARY_TERMS: GlossaryTerm[] = [
         term: "Oṣù",
         definition: "A sacred hairstyle (braids) worn by Ṣàngó and his priests, representing the 'ordering' and containment of power.",
         pronunciation: "Oh-shoo",
+    },
+    {
+        term: "Ẹbọ",
+        definition: "Sacrifice or offering; a ritual of reciprocity and spiritual thermodynamics used to move energy from 'Heat' to 'Cool.'",
+        pronunciation: "Eh-baw",
     },
 ];

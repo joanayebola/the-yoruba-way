@@ -31,6 +31,7 @@ export default function Navbar() {
                             key={link.href}
                             href={link.href}
                             className="group flex flex-col items-start"
+                            aria-label={`Go to ${link.label} (${link.description})`}
                         >
                             <span className="text-sm font-medium hover:text-accent transition-colors">
                                 {link.label}

@@ -24,12 +24,14 @@ export default function Hero() {
                     <Link
                         href="/blog"
                         className="px-8 py-4 bg-accent text-background font-bold rounded-full flex items-center justify-center gap-2 transition-all hover:bg-accent/90 hover:scale-105 active:scale-95 shadow-lg shadow-accent/20"
+                        aria-label="Explore The Oracle" // Added aria-label
                     >
                         Explore The Oracle <ArrowRight size={20} />
                     </Link>
                     <Link
                         href="/about"
                         className="px-8 py-4 bg-background border border-foreground/10 text-foreground font-bold rounded-full flex items-center justify-center gap-2 transition-all hover:bg-foreground/5 hover:border-foreground/20"
+                        aria-label="Learn about The Lineage" // Added aria-label
                     >
                         The Lineage
                     </Link>

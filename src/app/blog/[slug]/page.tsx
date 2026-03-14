@@ -23,12 +23,17 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     }
 
     return {
-        title: `${post.title} | The Yorùbá Way`,
+        title: post.title,
         description: post.excerpt,
+        alternates: {
+            canonical: `https://theyorubaway.com/blog/${slug}`,
+        },
         openGraph: {
             title: post.title,
             description: post.excerpt,
             type: "article",
+            publishedTime: new Date(post.date).toISOString(),
+            authors: [post.author],
             siteName: "The Yorùbá Way",
             images: post.image ? [{ url: post.image }] : [],
         },
