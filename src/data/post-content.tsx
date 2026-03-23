@@ -493,4 +493,93 @@ export const POST_CONTENT: Record<string, React.ReactNode> = {
             </div>
         </>
     ),
+    "osun-beyond-the-mirror": (
+        <>
+            <p>
+                In the modern world, <Tooltip term="Ọ̀ṣun" /> has been turned into a brand. If you search for her online, you’ll find endless images of yellow silk, honey, and mirrors. She is often marketed as a "goddess of vanity," a divine influencer concerned only with romance and beauty.
+            </p>
+
+            <p>
+                But the <Tooltip term="Ọ̀ṣun" /> of the <Tooltip term="Odù Ifá" /> is a different being entirely.
+            </p>
+
+            <p>
+                She isn't just "pretty"; she is a political powerhouse. She is the <Tooltip term="Ìyálóde" /> (The Mother of the City), the supreme diplomat, and the leader of the Council of the Mothers. In Yorùbá philosophy, <Tooltip term="Ọ̀ṣun" /> is the one who holds the power of the "No", the ultimate veto that can bring the entire universe to a standstill.
+            </p>
+
+            <h3 className="text-3xl font-serif font-bold mt-16 mb-6">The Diplomacy of <Tooltip term="Òṣé Tura" /></h3>
+            <p>
+                The most famous story of <Tooltip term="Ọ̀ṣun" />’s power is found in the Odù <Tooltip term="Òṣé Tura" />. When the original 17 <Tooltip term="Òrìṣà" /> descended to Earth to organize the world, 16 of them were men. They were strong, wise, and hardworking. They held meetings, made plans, and attempted to build a civilization.
+            </p>
+
+            <p>
+                But they made one fatal mistake: they ignored <Tooltip term="Ọ̀ṣun" />.
+            </p>
+
+            <p>
+                Because they saw her as "just a woman," they excluded her from their council. The result was catastrophic. The rain stopped falling. Women became barren. The crops withered in the fields. No matter how much the 16 male <Tooltip term="Òrìṣà" /> worked, nothing manifested.
+            </p>
+
+            <p>
+                They had to return to Olódùmarè (The Source) to ask what went wrong. The answer was simple: Nothing in this universe can happen without the sanction of the feminine. <Tooltip term="Ọ̀ṣun" /> didn't block them out of "pettiness"; she blocked them because they violated the law of Balance.
+            </p>
+
+            <h3 className="text-3xl font-serif font-bold mt-16 mb-6">The Leader of the Council</h3>
+            <p>
+                <Tooltip term="Ọ̀ṣun" /> is the head of the <Tooltip term="Ìyáami" /> (The Mothers). While <Tooltip term="Ògún" /> handles the iron and <Tooltip term="Ṣàngó" /> handles the lightning, <Tooltip term="Ọ̀ṣun" /> handles the Sanction.
+            </p>
+
+            <p>
+                She is the one who negotiates between the "Hot" <Tooltip term="Òrìṣà" /> and the hidden forces of the Earth. Her signature metal is brass (<Tooltip term="Idẹ" />). Unlike iron, brass does not rust. It represents a power that is permanent, brilliant, and incorruptible.
+            </p>
+
+            <p>
+                Her weapon is not a club or a spear, but a brass knife. This signifies her role as a strategist,she doesn't need brute force to win a war; she knows exactly where to "cut" to restore order. She is the diplomat who ensures that justice is served before any action is taken.
+            </p>
+
+            <h3 className="text-3xl font-serif font-bold mt-16 mb-6">The Science of "Sweetness"</h3>
+            <p>
+                We often talk about <Tooltip term="Ọ̀ṣun" />’s "Honey" (<Tooltip term="Oyin" />), but we misunderstand its science. In nature, honey is a preservative. It prevents decay.
+            </p>
+
+            <p>
+                <Tooltip term="Ọ̀ṣun" />’s "sweetness" is her ability to preserve the social fabric. She is the "glue" that keeps a community together through diplomacy, art, and culture. Without her, society becomes a collection of individuals fighting for power. With her, it becomes a civilization.
+            </p>
+
+            <p>
+                Her fertility isn't just about childbirth; it is the biological and spiritual ability to take a "seed" (an idea) and provide the "womb" (the environment) for it to become a reality. If you want a business to grow or a project to launch, you are calling on the energy of <Tooltip term="Ọ̀ṣun" />.
+            </p>
+
+            <h3 className="text-3xl font-serif font-bold mt-16 mb-6">Reclaiming the Mirror</h3>
+            <p>
+                Finally, we have to look at her mirror. To the colonial mind, a mirror is for vanity. To the initiate, a mirror is for Reflection.
+            </p>
+
+            <p>
+                <Tooltip term="Ọ̀ṣun" />’s mirror is a tool for self-study. It challenges you to look at your own <Tooltip term="Orí" /> (consciousness) and ask: Is my character (<Tooltip term="Ìwà" />) in alignment with my destiny? You cannot lead a council or a family if you cannot face your own reflection.
+            </p>
+
+            <p>
+                <Tooltip term="Ọ̀ṣun" /> teaches us that true beauty is the outward manifestation of an ordered inner life.
+            </p>
+
+            <div className="my-16 p-10 glass-card rounded-[2rem] bg-accent/5 relative overflow-hidden">
+                <div className="absolute top-0 right-0 w-32 h-32 bg-accent/5 rounded-full blur-2xl" />
+                <h3 className="text-2xl font-serif font-bold mb-6 italic">Conclusion</h3>
+                <p>
+                    <Tooltip term="Ọ̀ṣun" /> is not a "pretty girl" waiting for a prayer. She is the Queen of Diplomacy who demands a seat at every table. She reminds us that masculine action— no matter how strong is sterile without the cooling, strategic sanction of the feminine.
+                </p>
+                <p>
+                    When we respect <Tooltip term="Ọ̀ṣun" />, we aren't just honoring a deity; we are upholding the law of balance that keeps the world turning.
+                </p>
+            </div>
+
+            <section className="mt-20 border-t border-accent/10 pt-10">
+                <h4 className="text-lg font-serif font-bold mb-6">Reflect & Connect</h4>
+                <p className="italic text-foreground/70 mb-8">
+                    Where in your life are you trying to "force" things to happen without seeking the proper balance or "sanction"? How would a bit of <Tooltip term="Ọ̀ṣun" />’s diplomacy change your current strategy?
+                </p>
+            </section>
+        </>
+    ),
 };

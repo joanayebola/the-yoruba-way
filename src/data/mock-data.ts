@@ -61,6 +61,18 @@ export const MOCK_POSTS: Post[] = [
         readingTime: "5 min read",
         verified: true,
     },
+    {
+        id: "8",
+        title: "Ọ̀ṣun Beyond the Mirror: The Leader of the Council",
+        slug: "osun-beyond-the-mirror",
+        date: "March 23, 2026",
+        excerpt: "Ọ̀ṣun isn't just 'pretty'; she is a political powerhouse. She is the Ìyálóde, the supreme diplomat, and the leader of the Council of the Mothers.",
+        category: "Philosophy",
+        author: "Joan Ayebola",
+        image: "/images/blog/osun-mirror.png",
+        readingTime: "8 min read",
+        verified: true,
+    },
 ];
 
 export const GLOSSARY_TERMS: GlossaryTerm[] = [
@@ -198,5 +210,30 @@ export const GLOSSARY_TERMS: GlossaryTerm[] = [
         term: "Ẹbọ",
         definition: "Sacrifice or offering; a ritual of reciprocity and spiritual thermodynamics used to move energy from 'Heat' to 'Cool.'",
         pronunciation: "Eh-baw",
+    },
+    {
+        term: "Ìyálóde",
+        definition: "The Mother of the City; a high-ranking female chief in Yorùbá traditional society, representing women's interests and holding significant political power.",
+        pronunciation: "Ee-yah-loh-deh",
+    },
+    {
+        term: "Idẹ",
+        definition: "Brass; the signature metal of Ọ̀ṣun, representing a power that is permanent, brilliant, and incorruptible.",
+        pronunciation: "Ee-deh",
+    },
+    {
+        term: "Oyin",
+        definition: "Honey; in nature, a preservative that prevents decay. Spiritually, it represents the ability to preserve the social fabric and 'sweeten' situations.",
+        pronunciation: "Oh-yin",
+    },
+    {
+        term: "Ìyáami",
+        definition: "Another term for 'Our Mothers' or the Àjẹ́, representing the fundamental feminine spiritual force and the custodians of the Earth.",
+        pronunciation: "Ee-yah-mee",
+    },
+    {
+        term: "Ògún",
+        definition: "The Yorùbá deity of iron, war, and labor; the path-clearer who rules over technology and the tools of civilization.",
+        pronunciation: "Oh-goon",
     },
 ];
