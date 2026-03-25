@@ -31,7 +31,7 @@ export default function OraclePage() {
                 selectedCategory === "All" || post.category === selectedCategory;
 
             return matchesSearch && matchesCategory;
-        });
+        }).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
     }, [searchQuery, selectedCategory]);
 
     return (
