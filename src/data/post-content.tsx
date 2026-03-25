@@ -582,4 +582,70 @@ export const POST_CONTENT: Record<string, React.ReactNode> = {
             </section>
         </>
     ),
+    "olokun-genderless-deity": (
+        <>
+            <p>
+                Humans have a restless need to categorize. We want our deities to fit into the same neat boxes we use for ourselves: Mother or Father, King or Queen, Husband or Wife. We take the vastness of the divine and try to force it into a human suit.
+            </p>
+
+            <p>
+                But <Tooltip term="Olókun" /> refuses the suit.
+            </p>
+
+            <p>
+                As the ruler of the deepest parts of the ocean, the "Abyss" where light cannot reach and human structures dissolve, <Tooltip term="Olókun" /> represents a state of being that precedes and transcends the gender binary. In some regions of West Africa, <Tooltip term="Olókun" /> is addressed as a man; in others, as a woman. This isn’t a historical "disagreement." It is a technical description of a deity that exists beyond the "either/or."
+            </p>
+
+            <h3 className="text-3xl font-serif font-bold mt-16 mb-6">The Science of the Deep</h3>
+            <p>
+                To understand <Tooltip term="Olókun" />, you have to understand the geography of the ocean floor. In the abyss, the rules of the surface don't apply. There is no sunlight to dictate the rhythm of the day, and the pressure is high enough to crush anything built with a shallow ego.
+            </p>
+
+            <p>
+                In Yorùbá philosophy, <Tooltip term="Olókun" /> is the <Tooltip term="Olowo Okun" />, the Owner of Secrets. Gender, at its core, is a surface-level social construct used to organize human interaction. But in the deep, there is only raw, unmanifested potential. <Tooltip term="Olókun" /> is the "Neutral" power. Unlike <Tooltip term="Ṣàngó" /> (who is Heat/Action) or <Tooltip term="Ọ̀ṣun" /> (who is Cool/Diplomacy), <Tooltip term="Olókun" /> is Static Power. It is the weight of the water itself. It doesn't need to "act" to be powerful; it simply is.
+            </p>
+
+            <h3 className="text-3xl font-serif font-bold mt-16 mb-6"><Tooltip term="Olókun" /> vs. <Tooltip term="Olósa" />: Surface vs. Depth</h3>
+            <p>
+                We often confuse the "Beach" with the "Ocean." In <Tooltip term="Ìṣẹ̀ṣe" />, we distinguish between <Tooltip term="Olósa" /> (the deity of the lagoons and the shore) and <Tooltip term="Olókun" /> (the deity of the limitless deep).
+            </p>
+
+            <p>
+                The closer you are to the shore, the more "human" the energies become. <Tooltip term="Olósa" /> and the <Tooltip term="Òrìṣà" /> of the rivers often take on clear gender roles because they interact directly with human civilization. But the further you travel into the Atlantic, the more those roles evaporate. <Tooltip term="Olókun" /> is often depicted wearing a beaded veil or a mask. This isn't just for decoration; it signifies that the true face of the Divine is beyond human definitions of identity. When you look at <Tooltip term="Olókun" />, you aren't supposed to see a "woman" or a "man", you are supposed to see the Infinite.
+            </p>
+
+            <h3 className="text-3xl font-serif font-bold mt-16 mb-6">Wealth from the Unknown</h3>
+            <p>
+                There is a reason why the "Genderless" deity is also the deity of infinite wealth (<Tooltip term="Ajé" />). In the ancient mind, true wealth didn't come from what was common; it came from the "Unknown." It was the cowries, the coral, and the treasures buried in the silt of the deep ocean.
+            </p>
+
+            <p>
+                The logic is simple: To access the wealth of <Tooltip term="Olókun" />, you have to be willing to let go of your rigid "ego identity." Most people are poor because they are trapped in who they think they are. <Tooltip term="Olókun" /> represents the vastness of what you could be if you stopped clinging to labels. Wealth flows to those who can navigate the fluid, the undefined, and the hidden.
+            </p>
+
+            <h3 className="text-3xl font-serif font-bold mt-16 mb-6">Reclaiming Fluidity</h3>
+            <p>
+                Colonialism didn't just bring new religions to Africa; it brought a strict, Victorian gender binary. It taught us to be ashamed of anything "in-between" and to fear the parts of our heritage that didn't fit into a patriarchal box.
+            </p>
+
+            <p>
+                But our ancestors were comfortable with the "In-between." They recognized that the most powerful forces in the universe, the ones that govern the tides and the depths of the earth don't fit into neat little categories. <Tooltip term="Olókun" /> is the patron of the misunderstood, the masked, and the fluid.
+            </p>
+
+            <div className="my-16 p-10 glass-card rounded-[2rem] bg-accent/5 relative overflow-hidden">
+                <div className="absolute top-0 right-0 w-32 h-32 bg-accent/5 rounded-full blur-2xl" />
+                <h3 className="text-2xl font-serif font-bold mb-6 italic">Conclusion</h3>
+                <p>
+                    Embracing <Tooltip term="Olókun" /> is an exercise in spiritual expansion. It is a reminder that while gender might help us navigate the "shore" of human society, it cannot follow us into the "abyss" of true consciousness. To sit with <Tooltip term="Olókun" /> is to sit with the parts of yourself that don't have a label. It is the power of the undefined, and it is where the real treasure is buried.
+                </p>
+            </div>
+
+            <section className="mt-20 border-t border-accent/10 pt-10">
+                <h4 className="text-lg font-serif font-bold mb-6">Reflect & Connect</h4>
+                <p className="italic text-foreground/70 mb-8">
+                    What parts of your identity have you "veiled" because they don't fit into a standard box? How would your life change if you viewed your "undefined" traits as a source of wealth rather than a source of confusion?
+                </p>
+            </section>
+        </>
+    ),
 };

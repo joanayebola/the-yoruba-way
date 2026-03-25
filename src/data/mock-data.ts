@@ -73,6 +73,18 @@ export const MOCK_POSTS: Post[] = [
         readingTime: "8 min read",
         verified: true,
     },
+    {
+        id: "9",
+        title: "Olókun: The Genderless Deity of the Deep",
+        slug: "olokun-genderless-deity",
+        date: "March 23, 2026",
+        excerpt: "Humans have a restless need to categorize. But Olókun, the ruler of the deepest parts of the ocean, refuses the suit.",
+        category: "Philosophy",
+        author: "Joan Ayebola",
+        image: "/images/blog/olokun-deep.png",
+        readingTime: "7 min read",
+        verified: true,
+    },
 ];
 
 export const GLOSSARY_TERMS: GlossaryTerm[] = [
@@ -235,5 +247,25 @@ export const GLOSSARY_TERMS: GlossaryTerm[] = [
         term: "Ògún",
         definition: "The Yorùbá deity of iron, war, and labor; the path-clearer who rules over technology and the tools of civilization.",
         pronunciation: "Oh-goon",
+    },
+    {
+        term: "Olókun",
+        definition: "The Yorùbá deity of the deep ocean, representing unfathomable wealth, the abyss, and a state of being beyond human gender or categorization.",
+        pronunciation: "Oh-loh-koon",
+    },
+    {
+        term: "Olowo Okun",
+        definition: "The Owner of Secrets and wealth of the Ocean, a title for Olókun reflecting the vast, hidden potential of the deep.",
+        pronunciation: "Oh-loh-woh Oh-koon",
+    },
+    {
+        term: "Olósa",
+        definition: "The Yorùbá deity of the lagoons and the shore, representing the more accessible, surface-level energies of water compared to the deep ocean.",
+        pronunciation: "Oh-loh-sah",
+    },
+    {
+        term: "Ajé",
+        definition: "Spiritual and material wealth; the innate power to manifest abundance, often associated with the treasures of the deep ocean.",
+        pronunciation: "Ah-jeh",
     },
 ];
