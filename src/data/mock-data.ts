@@ -77,7 +77,7 @@ export const MOCK_POSTS: Post[] = [
         id: "9",
         title: "Olókun: The Genderless Deity of the Deep",
         slug: "olokun-genderless-deity",
-        date: "March 23, 2026",
+        date: "March 25, 2026",
         excerpt: "Humans have a restless need to categorize. But Olókun, the ruler of the deepest parts of the ocean, refuses the suit.",
         category: "Philosophy",
         author: "Joan Ayebola",
