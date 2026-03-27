@@ -582,6 +582,81 @@ export const POST_CONTENT: Record<string, React.ReactNode> = {
             </section>
         </>
     ),
+    "ogun-divinity-of-technology": (
+        <>
+            <p>
+                In most popular descriptions of the Yorùbá pantheon, <Tooltip term="Ògún" /> is reduced to a one-dimensional figure: the angry god of war, draped in palm fronds, wielding a bloody machete. This "warrior-only" lens is a colonial leftover that misses the actual sophisticated philosophy of the <Tooltip term="Òrìṣà" />.
+            </p>
+
+            <p>
+                In the <Tooltip term="Odù Ifá" />, <Tooltip term="Ògún" /> is titled Oṣìn Imọlẹ̀, the Chief among the Divinities. He holds this rank not because he is the most violent, but because he is the most essential. <Tooltip term="Ògún" /> is the consciousness of Innovation. He is the pioneer who clears the path, the engineer who builds the infrastructure, and the master of the transformative power of Technology.
+            </p>
+
+            <h3 className="text-3xl font-serif font-bold mt-16 mb-6">The Architect of Civilization</h3>
+            <p>
+                The primary story of <Tooltip term="Ògún" /> centers on the descent of the <Tooltip term="Òrìṣà" /> from the spiritual realm to the earth. The divinities found themselves blocked by a "forest of mystery"— a dense, impenetrable barrier that no one could pass. The other deities tried to use their specific powers to break through, but they all failed.
+            </p>
+
+            <p>
+                It was <Tooltip term="Ògún" /> who stepped forward. Using a secret he had mastered (the alchemy of iron), he fashioned a tool that could cut through the impossible. He cleared the path that allowed civilization to begin.
+            </p>
+
+            <TruthCheck
+                colonial="Viewing Ogun solely as a violent 'god of war' or a primitive deity of destruction."
+                indigenous="This isn't just a myth about a forest; it is a metaphor for the human condition. Technology is the 'Clear Path.' Whether it is a stone tool, a steam engine, or a line of code, technology is the tool we use to overcome the 'impenetrable' limitations of nature. Ògún is the spirit of the breakthrough."
+            />
+
+            <h3 className="text-3xl font-serif font-bold mt-16 mb-6">The Alchemy of Iron: From Earth to Tool</h3>
+            <p>
+                <Tooltip term="Ògún" /> is the patron of the Alágbede (the Blacksmith). In ancient Yorùbá society, the blacksmith’s forge was a sacred laboratory. The smith took raw earth (ore) and, through the application of intense heat and specific ritual knowledge, transformed it into something entirely new: Iron (Ìrin).
+            </p>
+
+            <p>
+                This is the "Science of <Tooltip term="Ògún" />." It is the understanding that the world can be reshaped. <Tooltip term="Ògún" /> represents the seven stages of this transformation, from the raw, unrefined energy of the earth to the highly polished, functional tool.
+            </p>
+
+            <p>
+                He is the scalpel that saves a life in surgery. He is the plow that turns the soil to feed a nation. He is the bridge that connects two divided peoples. While the "weapon" exists, it is only one small application of his vast technological <Tooltip term="Aṣẹ" />.
+            </p>
+
+            <h3 className="text-3xl font-serif font-bold mt-16 mb-6">The Ethics of the "Bitter Edge"</h3>
+            <p>
+                Because <Tooltip term="Ògún" />’s tools are so powerful, they carry a heavy ethical burden. This is why people in Yorùbá culture traditionally swear oaths on iron.
+            </p>
+
+            <p>
+                Iron does not lie. If a builder miscalculates the strength of an iron beam, the building falls. If a programmer writes faulty logic, the system crashes. <Tooltip term="Ògún" /> is the divinity of Absolute Truth and Integrity. He demands that the "math" of our lives matches the "math" of the universe.
+            </p>
+
+            <p>
+                To follow <Tooltip term="Ògún" /> is to accept the "Bitter Edge" (the realization that every innovation comes with a responsibility). You cannot build a tool without considering how it will be used. <Tooltip term="Ògún" /> represents the high-stakes pressure of being a creator.
+            </p>
+
+            <h3 className="text-3xl font-serif font-bold mt-16 mb-6">Ògún in the Digital Age</h3>
+            <p>
+                Many people think the <Tooltip term="Òrìṣà" /> are "ancient" and don't belong in the modern world. This is a misunderstanding of what an <Tooltip term="Òrìṣà" /> is. An <Tooltip term="Òrìṣà" /> is a principle of nature.
+            </p>
+
+            <p>
+                <Tooltip term="Ògún" /> is not "the machete." <Tooltip term="Ògún" /> is the Conductor. In the 1800s, he was the railroad. In the 1900s, he was the internal combustion engine. Today, <Tooltip term="Ògún" /> is the silicon chip, the fiber-optic cable, and the complex algorithms of AI.
+            </p>
+
+            <p>
+                Any time a human being uses their consciousness to create a tool that expands our reach, they are working in the laboratory of <Tooltip term="Ògún" />. He is the patron saint of the coder, the data scientist, the mechanical engineer, and the surgeon.
+            </p>
+
+            <div className="my-16 p-10 glass-card rounded-[2rem] bg-accent/5 relative overflow-hidden">
+                <div className="absolute top-0 right-0 w-32 h-32 bg-accent/5 rounded-full blur-2xl" />
+                <h3 className="text-2xl font-serif font-bold mb-6 italic">Conclusion</h3>
+                <p>
+                    <Tooltip term="Ògún" /> is the reminder that progress is a spiritual act. We were not meant to live in a state of stagnation; we were meant to clear the path. By reclaiming <Tooltip term="Ògún" /> as the Divinity of Technology, we stop viewing our tools as "soulless" and start viewing our work as a sacred contribution to the evolution of the world.
+                </p>
+                <p>
+                    To be a master of your craft is to be a child of <Tooltip term="Ògún" />.
+                </p>
+            </div>
+        </>
+    ),
     "olokun-genderless-deity": (
         <>
             <p>

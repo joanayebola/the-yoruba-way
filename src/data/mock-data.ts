@@ -2,6 +2,18 @@ import { Post, GlossaryTerm } from "@/types/blog";
 
 export const MOCK_POSTS: Post[] = [
     {
+        id: "10",
+        title: "Ògún: The Divinity of Technology",
+        slug: "ogun-divinity-of-technology",
+        date: "March 27, 2026",
+        excerpt: "More than a 'god of war,' Ògún is the consciousness of innovation. We explore the sacred ethics of technology and the 'Clear Path.'",
+        category: "Decolonizing",
+        author: "Joan Ayebola",
+        image: "/images/blog/ogun-tech.png",
+        readingTime: "8 min read",
+        verified: true,
+    },
+    {
         id: "7",
         title: "Cool Water vs. Hot Fire: The Science of Ẹbọ",
         slug: "science-of-ebo",
@@ -267,5 +279,15 @@ export const GLOSSARY_TERMS: GlossaryTerm[] = [
         term: "Ajé",
         definition: "Spiritual and material wealth; the innate power to manifest abundance, often associated with the treasures of the deep ocean.",
         pronunciation: "Ah-jeh",
+    },
+    {
+        term: "Alágbede",
+        definition: "The Blacksmith; a sacred professional in Yorùbá society who transforms raw earth into iron through alchemical and ritual knowledge.",
+        pronunciation: "Ah-lah-gbeh-deh",
+    },
+    {
+        term: "Ìrin",
+        definition: "Iron; the sacred metal of Ògún, representing the foundation of technology and civilization.",
+        pronunciation: "Ee-rin",
     },
 ];
